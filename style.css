@@ -1,23 +1,28 @@
 body {
     font-family: Arial, Verdana,  sans-serif; /* keluarga font */
     font-size: 15pt; /* Ukuran font utama di <p></p>  */
-    background-color: #FFFFFF; /* Warna latar belakang laman web */
-    color: #14005a; /* Warna teks */ 
+    background : linear-gradient(to top , #d0ff62, #18f8c0);
+}
+body {
+    background-color: #F0F8FF;
+ /* Warna latar belakang laman web */
+    color: #333333;
+   /* Warna teks */ 
 }
 h1 {
-    color: #5988FF; /* Warna tajuk */
+    color: #1B5E20; /* Warna tajuk */
     font-size: 30pt; /* Ukuran font tajuk */
     font-family: fantasy, Georgia, Times, serif; /* Keluarga font yang digunakan di tajuk (header) */
-    border-bottom: 20px solid #FD98FB;
+    border-bottom: 20px solid #98fdc2;
     padding-bottom: 50px;
     text-align: center; /* Menyelaraskan tajuk ke tengah */
 }
 h2 {
-    color: #5988FF; /* Warna tajuk */
+    color: #388E3C     ; /* Warna tajuk */
     font-size: 24pt; /* Ukuran font tajuk */
     font-family: fantasy, Georgia, Times, serif; /* Keluarga font yang digunakan di tajuk (header) */
     text-decoration-line: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #45fd92;
     
 }
 /* img {
@@ -40,6 +45,6 @@ h2 {
     }
 }
 
-/* h2:hover { animation: color-change 3000s infinite;} */
-p:hover { animation: color-change 1s infinite;}
+/* h2:hover { animation: color-change 0.000000000000001s infinite;} */
+h1:hover { animation: color-change 1s infinite;}
 /* p:hover { animation: color-change 3000s infinite;} */
